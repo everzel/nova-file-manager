@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Filesystem\Metadata;
+namespace Everzel\NovaFileManager\Filesystem\Metadata;
 
-use Oneduo\NovaFileManager\Filesystem\Support\GetID3;
+use Everzel\NovaFileManager\Filesystem\Support\GetID3;
 
 class S3Analyzer extends Analyzer
 {

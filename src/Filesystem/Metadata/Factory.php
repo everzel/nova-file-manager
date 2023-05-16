@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Filesystem\Metadata;
+namespace Everzel\NovaFileManager\Filesystem\Metadata;
 
 use Illuminate\Contracts\Filesystem\Filesystem;
-use Oneduo\NovaFileManager\Contracts\Filesystem\Metadata\Analyzer;
+use Everzel\NovaFileManager\Contracts\Filesystem\Metadata\Analyzer;
 
 class Factory
 {

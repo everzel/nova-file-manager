@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Entities;
+namespace Everzel\NovaFileManager\Entities;
 
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\fileSystem\AwsS3V3Adapter;
 use Illuminate\Support\Carbon;
 use Laravel\Nova\Http\Requests\NovaRequest;
 use League\Flysystem\UnableToRetrieveMetadata;
-use Oneduo\NovaFileManager\Contracts\Entities\Entity as EntityContract;
-use Oneduo\NovaFileManager\Contracts\Services\FileManagerContract;
+use Everzel\NovaFileManager\Contracts\Entities\Entity as EntityContract;
+use Everzel\NovaFileManager\Contracts\Services\FileManagerContract;
 
 abstract class Entity implements Arrayable, EntityContract
 {
@@ -26,7 +26,7 @@ abstract class Entity implements Arrayable, EntityContract
     /**
      * Static helper
      *
-     * @param  \Oneduo\NovaFileManager\Contracts\Services\FileManagerContract  $manager
+     * @param  \Everzel\NovaFileManager\Contracts\Services\FileManagerContract  $manager
      * @param  string  $path
      * @param  string  $disk
      * @return static

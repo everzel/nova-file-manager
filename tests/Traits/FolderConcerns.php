@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Tests\Traits;
+namespace Everzel\NovaFileManager\Tests\Traits;
 
 use Illuminate\Foundation\Auth\User;
 use Illuminate\Support\Facades\Storage;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Support;
+namespace Everzel\NovaFileManager\Support;
 
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Contracts\Support\Arrayable;

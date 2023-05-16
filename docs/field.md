@@ -7,7 +7,7 @@ You can start using the field by adding a `FileManager` field to your Nova resou
 ```php
 // app/Nova/Project.php
 
-use Oneduo\NovaFileManager\FileManager;
+use Everzel\NovaFileManager\FileManager;
 
 class Project extends Resource
 {
@@ -40,7 +40,7 @@ by using the `limit` method.
 ```php
 // app/Nova/Project.php
 
-use Oneduo\NovaFileManager\FileManager;
+use Everzel\NovaFileManager\FileManager;
 
 class Project extends Resource
 {
@@ -68,8 +68,8 @@ For that, you can specifically use the following custom rule :
 ```php
 // app/Nova/Project.php
 
-use Oneduo\NovaFileManager\FileManager;
-use Oneduo\NovaFileManager\Rules\FileLimit;
+use Everzel\NovaFileManager\FileManager;
+use Everzel\NovaFileManager\Rules\FileLimit;
 
 class Project extends Resource
 {
@@ -107,8 +107,8 @@ You may then use the `resolveUrlUsing` method to customize how the file URL is g
 ```php
 // app/Nova/User.php
 
-use Oneduo\NovaFileManager\FileManager;
-use Oneduo\NovaFileManager\Rules\FileLimit;
+use Everzel\NovaFileManager\FileManager;
+use Everzel\NovaFileManager\Rules\FileLimit;
 
 class User extends Resource
 {
@@ -149,10 +149,10 @@ use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Http\Requests\NovaRequest;
 use Laravel\Nova\Nova;
 use Laravel\Nova\NovaApplicationServiceProvider;
-use Oneduo\NovaFileManager\Casts\Asset;
-use Oneduo\NovaFileManager\Casts\AssetCollection;
-use Oneduo\NovaFileManager\FileManager;
-use Oneduo\NovaFileManager\NovaFileManager;
+use Everzel\NovaFileManager\Casts\Asset;
+use Everzel\NovaFileManager\Casts\AssetCollection;
+use Everzel\NovaFileManager\FileManager;
+use Everzel\NovaFileManager\NovaFileManager;
 use Outl1ne\NovaSettings\NovaSettings;
 
 class NovaServiceProvider extends NovaApplicationServiceProvider

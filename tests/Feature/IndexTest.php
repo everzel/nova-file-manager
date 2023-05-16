@@ -9,9 +9,9 @@ use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Laravel\Nova\Http\Requests\NovaRequest;
 use Laravel\Nova\Nova;
-use Oneduo\NovaFileManager\NovaFileManager;
-use Oneduo\NovaFileManager\Tests\Fixture\TestResource;
-use Oneduo\NovaFileManager\Tests\Fixture\TestResourceWithOnDemandFilesystem;
+use Everzel\NovaFileManager\NovaFileManager;
+use Everzel\NovaFileManager\Tests\Fixture\TestResource;
+use Everzel\NovaFileManager\Tests\Fixture\TestResourceWithOnDemandFilesystem;
 use function Pest\Laravel\actingAs;
 use function Pest\Laravel\getJson;
 
@@ -137,12 +137,12 @@ it('can retrieve files from field with a custom url resolver', function () {
     Nova::$tools = [
         NovaFileManager::make()
             ->resolveUrlUsing(function (NovaRequest $request, string $path, string $disk, Filesystem $filesystem) {
-                return 'https://oneduo.github.io/assets/'.ltrim($path, '/');
+                return 'https://everzel.github.io/assets/'.ltrim($path, '/');
             }),
     ];
 
     Storage::disk($this->disk)->put($path = Str::random().'.txt', Str::random());
-    Storage::disk($this->disk)->makeDirectory('oneduo');
+    Storage::disk($this->disk)->makeDirectory('everzel');
 
     actingAs($this->user)
         ->getJson(uri: route('nova-file-manager.data'))
@@ -152,14 +152,14 @@ it('can retrieve files from field with a custom url resolver', function () {
             'breadcrumbs' => [],
             'folders' => [
                 [
-                    'path' => '/oneduo',
-                    'name' => 'oneduo',
+                    'path' => '/everzel',
+                    'name' => 'everzel',
                 ],
             ],
             'files' => [
                 [
                     'path' => $path,
-                    'url' => "https://oneduo.github.io/assets/{$path}",
+                    'url' => "https://everzel.github.io/assets/{$path}",
                 ],
             ],
             'pagination' => [

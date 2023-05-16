@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 use Illuminate\Support\Facades\Route;
-use Oneduo\NovaFileManager\Http\Controllers\ToolController;
+use Everzel\NovaFileManager\Http\Controllers\ToolController;
 
 /*
 |--------------------------------------------------------------------------

@@ -93,11 +93,11 @@ let sidebar = [
     items: [
       {
         text: 'Github',
-        link: 'https://github.com/oneduo/nova-file-manager',
+        link: 'https://github.com/everzel/nova-file-manager',
       },
       {
         text: 'Other packages',
-        link: 'https://github.com/oneduo',
+        link: 'https://github.com/everzel',
       },
     ],
   },
@@ -123,14 +123,14 @@ let head = [
     'meta',
     {
       property: 'og:url',
-      content: 'https://github.com/oneduo/nova-file-manager',
+      content: 'https://github.com/everzel/nova-file-manager',
     },
   ],
   [
     'meta',
     {
       property: 'og:image',
-      content: 'https://raw.githubusercontent.com/oneduo/nova-file-manager/main/docs/cover.png',
+      content: 'https://raw.githubusercontent.com/everzel/nova-file-manager/main/docs/cover.png',
     },
   ],
   [
@@ -164,12 +164,12 @@ let theme = {
   socialLinks: [
     {
       icon: 'github',
-      link: 'https://github.com/oneduo/nova-file-manager',
+      link: 'https://github.com/everzel/nova-file-manager',
     },
   ],
   editLink: {
     text: 'Edit page',
-    pattern: 'https://github.com/oneduo/nova-file-manager/edit/main/docs/:path',
+    pattern: 'https://github.com/everzel/nova-file-manager/edit/main/docs/:path',
   },
   algolia: {
     apiKey: '32f56aed4b8bbe7f4be1e4b55406d84a',

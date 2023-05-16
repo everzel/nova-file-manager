@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager;
+namespace Everzel\NovaFileManager;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Http\Middleware\Authenticate;
 use Laravel\Nova\Nova;
-use Oneduo\NovaFileManager\Contracts\Filesystem\Upload\Uploader as UploaderContract;
-use Oneduo\NovaFileManager\Contracts\Services\FileManagerContract;
-use Oneduo\NovaFileManager\Filesystem\Upload\Uploader;
-use Oneduo\NovaFileManager\Http\Middleware\Authorize;
-use Oneduo\NovaFileManager\Services\FileManagerService;
+use Everzel\NovaFileManager\Contracts\Filesystem\Upload\Uploader as UploaderContract;
+use Everzel\NovaFileManager\Contracts\Services\FileManagerContract;
+use Everzel\NovaFileManager\Filesystem\Upload\Uploader;
+use Everzel\NovaFileManager\Http\Middleware\Authorize;
+use Everzel\NovaFileManager\Services\FileManagerService;
 
 class ToolServiceProvider extends ServiceProvider
 {

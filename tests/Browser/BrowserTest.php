@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Tests\Browser;
+namespace Everzel\NovaFileManager\Tests\Browser;
 
 use Laravel\Dusk\Browser;
-use Oneduo\NovaFileManager\Tests\DuskTestCase;
+use Everzel\NovaFileManager\Tests\DuskTestCase;
 
 /**
  * @group browser

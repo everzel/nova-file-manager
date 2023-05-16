@@ -98,13 +98,13 @@ return [
     | Here you can override or define new entity types that can be used to map
     | the files in your storage.
     |
-    | Should extend \Oneduo\NovaFileManager\Entities\Entity::class
+    | Should extend \Everzel\NovaFileManager\Entities\Entity::class
     |
     */
     'entities' => [
-        'image' => \Oneduo\NovaFileManager\Entities\Image::class,
-        'video' => \Oneduo\NovaFileManager\Entities\Video::class,
-        'default' => \Oneduo\NovaFileManager\Entities\File::class,
+        'image' => \Everzel\NovaFileManager\Entities\Image::class,
+        'video' => \Everzel\NovaFileManager\Entities\Video::class,
+        'default' => \Everzel\NovaFileManager\Entities\File::class,
     ],
 
     /*

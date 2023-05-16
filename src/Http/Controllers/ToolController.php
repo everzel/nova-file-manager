@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Http\Controllers;
+namespace Everzel\NovaFileManager\Http\Controllers;
 
 use Carbon\CarbonInterval;
 use Closure;
@@ -15,13 +15,13 @@ use Inertia\Response;
 use Laravel\Nova\Http\Requests\NovaRequest;
 use Laravel\Nova\Nova;
 use Laravel\Nova\Tool;
-use Oneduo\NovaFileManager\NovaFileManager;
+use Everzel\NovaFileManager\NovaFileManager;
 
 class ToolController extends Controller
 {
     public function __invoke(NovaRequest $request): Response
     {
-        /** @var ?\Oneduo\NovaFileManager\NovaFileManager $tool */
+        /** @var ?\Everzel\NovaFileManager\NovaFileManager $tool */
         $tool = collect(Nova::registeredTools())->first(fn (Tool $tool) => $tool instanceof NovaFileManager);
 
         return Inertia::render('NovaFileManager', [
@@ -47,8 +47,8 @@ class ToolController extends Controller
                 key: 'nova-file-manager.update_checker',
                 ttl: (int) CarbonInterval::days(config('nova-file-manager.update_checker.ttl_in_days'))->totalSeconds,
                 callback: function () {
-                    $current = InstalledVersions::getPrettyVersion('oneduo/nova-file-manager');
-                    $latest = Http::get('https://api.github.com/repos/oneduo/nova-file-manager/releases/latest')->json('tag_name');
+                    $current = InstalledVersions::getPrettyVersion('everzel/nova-file-manager');
+                    $latest = Http::get('https://api.github.com/repos/everzel/nova-file-manager/releases/latest')->json('tag_name');
 
                     return version_compare($current, $latest, '<');
                 });

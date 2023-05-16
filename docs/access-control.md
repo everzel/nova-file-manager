@@ -26,8 +26,8 @@ resolves into `true|false`, like so :
 ```php
 // app/Nova/Project.php
 
-use Oneduo\NovaFileManager\FileManager;
-use Oneduo\NovaFileManager\Http\Requests\CreateFolderRequest;
+use Everzel\NovaFileManager\FileManager;
+use Everzel\NovaFileManager\Http\Requests\CreateFolderRequest;
 use Illuminate\Support\Facades\Storage;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
@@ -79,8 +79,8 @@ creating a folder, you can use the following callback :
 ```php
 // app/Nova/Project.php
 
-use Oneduo\NovaFileManager\FileManager;
-use Oneduo\NovaFileManager\Http\Requests\CreateFolderRequest;
+use Everzel\NovaFileManager\FileManager;
+use Everzel\NovaFileManager\Http\Requests\CreateFolderRequest;
 use Illuminate\Support\Facades\Storage;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
@@ -108,8 +108,8 @@ error message that you can set yourself :
 ```php
 // app/Nova/Project.php
 
-use Oneduo\NovaFileManager\FileManager;
-use Oneduo\NovaFileManager\Http\Requests\CreateFolderRequest;
+use Everzel\NovaFileManager\FileManager;
+use Everzel\NovaFileManager\Http\Requests\CreateFolderRequest;
 use Illuminate\Support\Facades\Storage;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
@@ -186,7 +186,7 @@ current `NovaRequest` as a parameter, and returns a `string` or a `\Illuminate\C
 ```php
 // app/Nova/Project.php
 
-use Oneduo\NovaFileManager\FileManager;
+use Everzel\NovaFileManager\FileManager;
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Support\Facades\Storage;
 use Laravel\Nova\Http\Requests\NovaRequest;
@@ -218,7 +218,7 @@ root, a folder based on the current user's role :
 ```php
 // app/Nova/Project.php
 
-use Oneduo\NovaFileManager\FileManager;
+use Everzel\NovaFileManager\FileManager;
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Support\Facades\Storage;
 use Laravel\Nova\Http\Requests\NovaRequest;

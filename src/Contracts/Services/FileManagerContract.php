@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Contracts\Services;
+namespace Everzel\NovaFileManager\Contracts\Services;
 
 use Closure;
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Collection;
-use Oneduo\NovaFileManager\Entities\Entity;
+use Everzel\NovaFileManager\Entities\Entity;
 
 interface FileManagerContract
 {

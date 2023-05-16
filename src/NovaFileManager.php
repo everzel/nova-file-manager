@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager;
+namespace Everzel\NovaFileManager;
 
 use Illuminate\Http\Request;
 use Laravel\Nova\Menu\MenuSection;
 use Laravel\Nova\Tool;
-use Oneduo\NovaFileManager\Contracts\Support\InteractsWithFilesystem;
+use Everzel\NovaFileManager\Contracts\Support\InteractsWithFilesystem;
 
 class NovaFileManager extends Tool implements InteractsWithFilesystem
 {

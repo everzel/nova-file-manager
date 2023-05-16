@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Rules;
+namespace Everzel\NovaFileManager\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
 

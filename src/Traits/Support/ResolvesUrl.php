@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Traits\Support;
+namespace Everzel\NovaFileManager\Traits\Support;
 
 use Closure;
 

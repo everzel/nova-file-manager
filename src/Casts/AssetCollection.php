@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Casts;
+namespace Everzel\NovaFileManager\Casts;
 
 use Illuminate\Contracts\Database\Eloquent\CastsAttributes;
 use Illuminate\Support\Collection;
 use InvalidArgumentException;
-use Oneduo\NovaFileManager\Support\Asset;
+use Everzel\NovaFileManager\Support\Asset;
 
 class AssetCollection implements CastsAttributes
 {
@@ -16,7 +16,7 @@ class AssetCollection implements CastsAttributes
      * @param  string  $key
      * @param  string  $value
      * @param  array  $attributes
-     * @return \Illuminate\Support\Collection<\Oneduo\NovaFileManager\Support\Asset>
+     * @return \Illuminate\Support\Collection<\Everzel\NovaFileManager\Support\Asset>
      *
      * @throws \JsonException
      */
@@ -33,7 +33,7 @@ class AssetCollection implements CastsAttributes
     /**
      * @param  \Illuminate\Database\Eloquent\Model  $model
      * @param  string  $key
-     * @param  \Illuminate\Support\Collection<\Oneduo\NovaFileManager\Support\Asset>  $value
+     * @param  \Illuminate\Support\Collection<\Everzel\NovaFileManager\Support\Asset>  $value
      * @param  array  $attributes
      * @return string
      */

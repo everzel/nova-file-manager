@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Http\Requests;
+namespace Everzel\NovaFileManager\Http\Requests;
 
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Str;
-use Oneduo\NovaFileManager\Filesystem\Support\GetID3;
-use Oneduo\NovaFileManager\Rules\DiskExistsRule;
-use Oneduo\NovaFileManager\Rules\FileMissingInFilesystem;
+use Everzel\NovaFileManager\Filesystem\Support\GetID3;
+use Everzel\NovaFileManager\Rules\DiskExistsRule;
+use Everzel\NovaFileManager\Rules\FileMissingInFilesystem;
 
 /**
  * @property-read string|null $disk

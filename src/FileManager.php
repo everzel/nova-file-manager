@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager;
+namespace Everzel\NovaFileManager;
 
 use Closure;
 use JsonException;
@@ -12,10 +12,10 @@ use Laravel\Nova\Fields\HasThumbnail;
 use Laravel\Nova\Fields\PresentsImages;
 use Laravel\Nova\Fields\SupportsDependentFields;
 use Laravel\Nova\Http\Requests\NovaRequest;
-use Oneduo\NovaFileManager\Contracts\Services\FileManagerContract;
-use Oneduo\NovaFileManager\Contracts\Support\InteractsWithFilesystem as InteractsWithFilesystemContract;
-use Oneduo\NovaFileManager\Support\Asset;
-use Oneduo\NovaFileManager\Traits\Support\InteractsWithFilesystem;
+use Everzel\NovaFileManager\Contracts\Services\FileManagerContract;
+use Everzel\NovaFileManager\Contracts\Support\InteractsWithFilesystem as InteractsWithFilesystemContract;
+use Everzel\NovaFileManager\Support\Asset;
+use Everzel\NovaFileManager\Traits\Support\InteractsWithFilesystem;
 use stdClass;
 
 class FileManager extends Field implements InteractsWithFilesystemContract, Cover

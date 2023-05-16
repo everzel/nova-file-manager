@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Entities;
+namespace Everzel\NovaFileManager\Entities;
 
-use Oneduo\NovaFileManager\Filesystem\Metadata\Factory;
+use Everzel\NovaFileManager\Filesystem\Metadata\Factory;
 
 class Video extends Entity
 {

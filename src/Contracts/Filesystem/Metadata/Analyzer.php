@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Contracts\Filesystem\Metadata;
+namespace Everzel\NovaFileManager\Contracts\Filesystem\Metadata;
 
 interface Analyzer
 {

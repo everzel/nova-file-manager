@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Rules;
+namespace Everzel\NovaFileManager\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
-use Oneduo\NovaFileManager\Http\Requests\BaseRequest;
+use Everzel\NovaFileManager\Http\Requests\BaseRequest;
 
 class ExistsInFilesystem implements Rule
 {

@@ -13,8 +13,8 @@ You may provide Cropper.js-specific options to the tool or a resource field :
 ```php{15-17}
 // app/Nova/Project.php
 
-use Oneduo\NovaFileManager\FileManager;
-use Oneduo\NovaFileManager\Rules\FileLimit;
+use Everzel\NovaFileManager\FileManager;
+use Everzel\NovaFileManager\Rules\FileLimit;
 
 class Project extends Resource
 {

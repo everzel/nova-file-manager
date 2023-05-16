@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Http\Controllers;
+namespace Everzel\NovaFileManager\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use Oneduo\NovaFileManager\Http\Requests\IndexRequest;
+use Everzel\NovaFileManager\Http\Requests\IndexRequest;
 
 class IndexController extends Controller
 {
     /**
      * Get the data for the tool
      *
-     * @param  \Oneduo\NovaFileManager\Http\Requests\IndexRequest  $request
+     * @param  \Everzel\NovaFileManager\Http\Requests\IndexRequest  $request
      * @return \Illuminate\Http\JsonResponse
      */
     public function __invoke(IndexRequest $request)

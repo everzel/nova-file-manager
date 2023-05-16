@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Http\Requests;
+namespace Everzel\NovaFileManager\Http\Requests;
 
 use Illuminate\Validation\ValidationException;
 use Laravel\Nova\Fields\FieldCollection;
@@ -10,10 +10,10 @@ use Laravel\Nova\Http\Requests\NovaRequest;
 use Laravel\Nova\Nova;
 use Laravel\Nova\Resource;
 use Laravel\Nova\Tool;
-use Oneduo\NovaFileManager\Contracts\Services\FileManagerContract;
-use Oneduo\NovaFileManager\Contracts\Support\InteractsWithFilesystem;
-use Oneduo\NovaFileManager\FileManager;
-use Oneduo\NovaFileManager\NovaFileManager;
+use Everzel\NovaFileManager\Contracts\Services\FileManagerContract;
+use Everzel\NovaFileManager\Contracts\Support\InteractsWithFilesystem;
+use Everzel\NovaFileManager\FileManager;
+use Everzel\NovaFileManager\NovaFileManager;
 
 /**
  * @property-read ?string $disk
@@ -31,7 +31,7 @@ class BaseRequest extends NovaRequest
             /** @var NovaFileManager $element */
             $element = $this->element();
 
-            /** @var \Oneduo\NovaFileManager\Services\FileManagerService $manager */
+            /** @var \Everzel\NovaFileManager\Services\FileManagerService $manager */
             $manager = app(
                 abstract: FileManagerContract::class,
                 parameters: $element?->hasCustomFilesystem() ? ['disk' => $element?->resolveFilesystem($this)] : [],

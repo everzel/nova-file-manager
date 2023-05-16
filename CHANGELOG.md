@@ -6,190 +6,190 @@ All notable changes to `nova-file-manager` will be documented in this file
 
 ### What's Changed
 
-- build(deps-dev): bump orchestra/testbench from 7.22.1 to 7.23.0 by @dependabot in https://github.com/oneduo/nova-file-manager/pull/219
-- build(deps-dev): bump orchestra/testbench-dusk from 7.23.0 to 7.24.0 by @dependabot in https://github.com/oneduo/nova-file-manager/pull/218
-- build(deps-dev): bump laravel/pint from 1.6.0 to 1.7.0 by @dependabot in https://github.com/oneduo/nova-file-manager/pull/216
-- build(deps-dev): bump vite-tsconfig-paths from 4.0.5 to 4.0.7 by @dependabot in https://github.com/oneduo/nova-file-manager/pull/215
-- build(deps-dev): bump pestphp/pest from 1.22.5 to 1.22.6 by @dependabot in https://github.com/oneduo/nova-file-manager/pull/214
-- build(deps-dev): bump @babel/core from 7.20.12 to 7.21.4 by @dependabot in https://github.com/oneduo/nova-file-manager/pull/213
-- build(deps-dev): bump @vitejs/plugin-vue from 4.0.0 to 4.1.0 by @dependabot in https://github.com/oneduo/nova-file-manager/pull/212
-- build(deps-dev): bump pinia from 2.0.32 to 2.0.33 by @dependabot in https://github.com/oneduo/nova-file-manager/pull/211
-- build(deps-dev): bump axios from 0.25.0 to 1.3.4 by @dependabot in https://github.com/oneduo/nova-file-manager/pull/210
-- build(deps): bump webpack from 5.74.0 to 5.77.0 by @dependabot in https://github.com/oneduo/nova-file-manager/pull/220
-- build(deps-dev): bump guzzlehttp/guzzle from 7.5.0 to 7.5.1 by @dependabot in https://github.com/oneduo/nova-file-manager/pull/234
-- build(deps-dev): bump pestphp/pest from 1.22.6 to 1.23.0 by @dependabot in https://github.com/oneduo/nova-file-manager/pull/232
-- build(deps-dev): bump prettier from 2.8.4 to 2.8.8 by @dependabot in https://github.com/oneduo/nova-file-manager/pull/225
-- build(deps-dev): bump postcss from 8.4.21 to 8.4.23 by @dependabot in https://github.com/oneduo/nova-file-manager/pull/226
-- build(deps-dev): bump eslint-plugin-tailwindcss from 3.10.1 to 3.11.0 by @dependabot in https://github.com/oneduo/nova-file-manager/pull/228
-- build(deps-dev): bump @types/wicg-file-system-access from 2020.9.5 to 2020.9.6 by @dependabot in https://github.com/oneduo/nova-file-manager/pull/229
-- build(deps-dev): bump @trivago/prettier-plugin-sort-imports from 3.4.0 to 4.1.1 by @dependabot in https://github.com/oneduo/nova-file-manager/pull/230
-- build(deps): bump pion/laravel-chunk-upload from 1.5.1 to 1.5.2 by @dependabot in https://github.com/oneduo/nova-file-manager/pull/231
-- build(deps-dev): bump orchestra/testbench-dusk from 7.24.0 to 7.25.1 by @dependabot in https://github.com/oneduo/nova-file-manager/pull/233
+- build(deps-dev): bump orchestra/testbench from 7.22.1 to 7.23.0 by @dependabot in https://github.com/everzel/nova-file-manager/pull/219
+- build(deps-dev): bump orchestra/testbench-dusk from 7.23.0 to 7.24.0 by @dependabot in https://github.com/everzel/nova-file-manager/pull/218
+- build(deps-dev): bump laravel/pint from 1.6.0 to 1.7.0 by @dependabot in https://github.com/everzel/nova-file-manager/pull/216
+- build(deps-dev): bump vite-tsconfig-paths from 4.0.5 to 4.0.7 by @dependabot in https://github.com/everzel/nova-file-manager/pull/215
+- build(deps-dev): bump pestphp/pest from 1.22.5 to 1.22.6 by @dependabot in https://github.com/everzel/nova-file-manager/pull/214
+- build(deps-dev): bump @babel/core from 7.20.12 to 7.21.4 by @dependabot in https://github.com/everzel/nova-file-manager/pull/213
+- build(deps-dev): bump @vitejs/plugin-vue from 4.0.0 to 4.1.0 by @dependabot in https://github.com/everzel/nova-file-manager/pull/212
+- build(deps-dev): bump pinia from 2.0.32 to 2.0.33 by @dependabot in https://github.com/everzel/nova-file-manager/pull/211
+- build(deps-dev): bump axios from 0.25.0 to 1.3.4 by @dependabot in https://github.com/everzel/nova-file-manager/pull/210
+- build(deps): bump webpack from 5.74.0 to 5.77.0 by @dependabot in https://github.com/everzel/nova-file-manager/pull/220
+- build(deps-dev): bump guzzlehttp/guzzle from 7.5.0 to 7.5.1 by @dependabot in https://github.com/everzel/nova-file-manager/pull/234
+- build(deps-dev): bump pestphp/pest from 1.22.6 to 1.23.0 by @dependabot in https://github.com/everzel/nova-file-manager/pull/232
+- build(deps-dev): bump prettier from 2.8.4 to 2.8.8 by @dependabot in https://github.com/everzel/nova-file-manager/pull/225
+- build(deps-dev): bump postcss from 8.4.21 to 8.4.23 by @dependabot in https://github.com/everzel/nova-file-manager/pull/226
+- build(deps-dev): bump eslint-plugin-tailwindcss from 3.10.1 to 3.11.0 by @dependabot in https://github.com/everzel/nova-file-manager/pull/228
+- build(deps-dev): bump @types/wicg-file-system-access from 2020.9.5 to 2020.9.6 by @dependabot in https://github.com/everzel/nova-file-manager/pull/229
+- build(deps-dev): bump @trivago/prettier-plugin-sort-imports from 3.4.0 to 4.1.1 by @dependabot in https://github.com/everzel/nova-file-manager/pull/230
+- build(deps): bump pion/laravel-chunk-upload from 1.5.1 to 1.5.2 by @dependabot in https://github.com/everzel/nova-file-manager/pull/231
+- build(deps-dev): bump orchestra/testbench-dusk from 7.24.0 to 7.25.1 by @dependabot in https://github.com/everzel/nova-file-manager/pull/233
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.9.1...v0.9.2
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.9.1...v0.9.2
 
 ## v0.9.1 - 2023-03-27
 
 ### What's Changed
 
-- Adds fieldsForCreate and fieldsForUpdate support by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/209
+- Adds fieldsForCreate and fieldsForUpdate support by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/209
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.9.0...v0.9.1
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.9.0...v0.9.1
 
 ## v0.9.0 - 2023-03-15
 
 ### What's Changed
 
-- feat: laravel 10 support by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/207
+- feat: laravel 10 support by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/207
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.8.4...v0.9.0
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.8.4...v0.9.0
 
 ## v0.8.4 - 2023-03-15
 
 ### What's Changed
 
-- fix: prevent mixed content type error by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/206
+- fix: prevent mixed content type error by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/206
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.8.3...v0.8.4
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.8.3...v0.8.4
 
 ## v0.8.3 - 2023-02-13
 
 ### What's Changed
 
-- Implement Cover on field to allow for thumbnails by @miagg in https://github.com/oneduo/nova-file-manager/pull/159
+- Implement Cover on field to allow for thumbnails by @miagg in https://github.com/everzel/nova-file-manager/pull/159
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.8.2...v0.8.3
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.8.2...v0.8.3
 
 ## v0.8.2 - 2023-02-03
 
 ### What's Changed
 
-- Add ability to configure Cropperjs by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/147
+- Add ability to configure Cropperjs by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/147
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.8.1...v0.8.2
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.8.1...v0.8.2
 
 ## v0.8.1 - 2023-02-03
 
 ### What's Changed
 
-- build(deps-dev): bump eslint from 8.21.0 to 8.33.0 by @dependabot in https://github.com/oneduo/nova-file-manager/pull/144
-- build(deps-dev): bump eslint-plugin-vue from 9.3.0 to 9.9.0 by @dependabot in https://github.com/oneduo/nova-file-manager/pull/143
-- build(deps-dev): bump @heroicons/vue from 2.0.8 to 2.0.14 by @dependabot in https://github.com/oneduo/nova-file-manager/pull/142
-- build(deps-dev): bump vue-loader from 16.8.3 to 17.0.1 by @dependabot in https://github.com/oneduo/nova-file-manager/pull/140
-- build(deps-dev): bump laravel/pint from 0.1.7 to 1.4.0 by @dependabot in https://github.com/oneduo/nova-file-manager/pull/138
-- Use thumbnails for index field by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/137
-- build(deps-dev): bump @headlessui/vue from 1.7.0 to 1.7.8 by @dependabot in https://github.com/oneduo/nova-file-manager/pull/139
+- build(deps-dev): bump eslint from 8.21.0 to 8.33.0 by @dependabot in https://github.com/everzel/nova-file-manager/pull/144
+- build(deps-dev): bump eslint-plugin-vue from 9.3.0 to 9.9.0 by @dependabot in https://github.com/everzel/nova-file-manager/pull/143
+- build(deps-dev): bump @heroicons/vue from 2.0.8 to 2.0.14 by @dependabot in https://github.com/everzel/nova-file-manager/pull/142
+- build(deps-dev): bump vue-loader from 16.8.3 to 17.0.1 by @dependabot in https://github.com/everzel/nova-file-manager/pull/140
+- build(deps-dev): bump laravel/pint from 0.1.7 to 1.4.0 by @dependabot in https://github.com/everzel/nova-file-manager/pull/138
+- Use thumbnails for index field by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/137
+- build(deps-dev): bump @headlessui/vue from 1.7.0 to 1.7.8 by @dependabot in https://github.com/everzel/nova-file-manager/pull/139
 
 ### New Contributors
 
-- @dependabot made their first contribution in https://github.com/oneduo/nova-file-manager/pull/144
+- @dependabot made their first contribution in https://github.com/everzel/nova-file-manager/pull/144
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.8.0...v0.8.1
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.8.0...v0.8.1
 
 ## v0.8.0 - 2023-01-27
 
 ### What's Changed
 
-- [0.8.x] Moving to Typescript by @Rezrazi in https://github.com/oneduo/nova-file-manager/pull/103
+- [0.8.x] Moving to Typescript by @Rezrazi in https://github.com/everzel/nova-file-manager/pull/103
 - Added ability to select image from preview modal
 - Added bulk deleted
 - Added support for dependsOn
 - Fixed an issue when the preview modal was not shown for a search asset which is not present in the current page
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.7.10...v0.8.0
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.7.10...v0.8.0
 
 ## v0.7.10 - 2023-01-25
 
 ### What's Changed
 
-- Improve third party package compatibility by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/127
+- Improve third party package compatibility by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/127
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.7.9...v0.7.10
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.7.9...v0.7.10
 
 ## v0.7.9 - 2023-01-25
 
 ### What's Changed
 
-- Fix hidden files within folders by @miagg in https://github.com/oneduo/nova-file-manager/pull/129
+- Fix hidden files within folders by @miagg in https://github.com/everzel/nova-file-manager/pull/129
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.7.8...v0.7.9
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.7.8...v0.7.9
 
 ## v0.7.8 - 2023-01-23
 
 ### What's Changed
 
-- Return string representation of Asset by @miagg in https://github.com/oneduo/nova-file-manager/pull/123
+- Return string representation of Asset by @miagg in https://github.com/everzel/nova-file-manager/pull/123
 
 ### New Contributors
 
-- @miagg made their first contribution in https://github.com/oneduo/nova-file-manager/pull/123
+- @miagg made their first contribution in https://github.com/everzel/nova-file-manager/pull/123
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.7.7...v0.7.8
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.7.7...v0.7.8
 
 ## v0.7.7 - 2023-01-23
 
 ### What's Changed
 
-- Update FileManager.php by @Human018 in https://github.com/oneduo/nova-file-manager/pull/111
+- Update FileManager.php by @Human018 in https://github.com/everzel/nova-file-manager/pull/111
 
 ### New Contributors
 
-- @Human018 made their first contribution in https://github.com/oneduo/nova-file-manager/pull/111
+- @Human018 made their first contribution in https://github.com/everzel/nova-file-manager/pull/111
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.7.6...v0.7.7
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.7.6...v0.7.7
 
 ## v0.7.6 - 2023-01-10
 
 ### What's Changed
 
-- fix(store): input not being trimmed before request by @Rezrazi in https://github.com/oneduo/nova-file-manager/pull/120
+- fix(store): input not being trimmed before request by @Rezrazi in https://github.com/everzel/nova-file-manager/pull/120
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.7.5...v0.7.6
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.7.5...v0.7.6
 
 ## v0.7.5 - 2022-11-25
 
 ### What's Changed
 
-- Improve events by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/109
+- Improve events by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/109
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.7.4...v0.7.5
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.7.4...v0.7.5
 
 ## v0.7.4 - 2022-11-22
 
 ### What's Changed
 
-- fix(pintura): change pintura option variable to avoid collision with Nova by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/106
+- fix(pintura): change pintura option variable to avoid collision with Nova by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/106
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.7.3...v0.7.4
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.7.3...v0.7.4
 
 ## v0.7.3 - 2022-11-14
 
 ### What's Changed
 
-- fix(filesystem): fix singleDisk value in store on form field. by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/99
+- fix(filesystem): fix singleDisk value in store on form field. by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/99
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.7.2...v0.7.3
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.7.2...v0.7.3
 
 ## v0.7.2 - 2022-11-01
 
 ### What's Changed
 
-- Fix error translation by @pblaravel in https://github.com/oneduo/nova-file-manager/pull/96
+- Fix error translation by @pblaravel in https://github.com/everzel/nova-file-manager/pull/96
 
 ### New Contributors
 
-- @pblaravel made their first contribution in https://github.com/oneduo/nova-file-manager/pull/96
+- @pblaravel made their first contribution in https://github.com/everzel/nova-file-manager/pull/96
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.7.1...v0.7.2
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.7.1...v0.7.2
 
 ## v0.7.1 - 2022-10-29
 
 ### What's Changed
 
-- Add ability to resolve display as html. by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/93
-- Use php style translations. by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/95
+- Add ability to resolve display as html. by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/93
+- Use php style translations. by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/95
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.7.0...v0.7.1
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.7.0...v0.7.1
 
 ## v0.7.0 - 2022-09-27
 
@@ -271,7 +271,7 @@ rm -rf vendor/
 
 ```
 ```bash
-composer install oneduo/nova-file-manager
+composer install everzel/nova-file-manager
 
 
 
@@ -319,69 +319,69 @@ In case you're experiencing trouble setting up the package with the new vendor, 
 
 ### What's Changed
 
-- [0.7.x] Improving components, store and backend handlers by @crezra in https://github.com/oneduo/nova-file-manager/pull/82
-- Add the Authenticate middleware, without which the side menu does not appear by @vesper8 in https://github.com/oneduo/nova-file-manager/pull/84
-- Add Pintura image editor support by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/85
+- [0.7.x] Improving components, store and backend handlers by @crezra in https://github.com/everzel/nova-file-manager/pull/82
+- Add the Authenticate middleware, without which the side menu does not appear by @vesper8 in https://github.com/everzel/nova-file-manager/pull/84
+- Add Pintura image editor support by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/85
 
 ### New Contributors
 
-- @vesper8 made their first contribution in https://github.com/oneduo/nova-file-manager/pull/84
+- @vesper8 made their first contribution in https://github.com/everzel/nova-file-manager/pull/84
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.6.4...v0.7.0
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.6.4...v0.7.0
 
 ## v0.6.4 - 2022-09-10
 
 ### What's Changed
 
-- fix(upload): fix an issue where a file could not be uploaded in a subdirectory when a file with same name exists in the root folder by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/79
+- fix(upload): fix an issue where a file could not be uploaded in a subdirectory when a file with same name exists in the root folder by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/79
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.6.3...v0.6.4
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.6.3...v0.6.4
 
 ## v0.6.3 - 2022-09-10
 
 ### What's Changed
 
-- refactor: add optional `resource` route parameter on api routes to comply with NovaRequest resource resolving by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/78
+- refactor: add optional `resource` route parameter on api routes to comply with NovaRequest resource resolving by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/78
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.6.2...v0.6.3
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.6.2...v0.6.3
 
 ## v0.6.2 - 2022-09-09
 
 ### What's Changed
 
-- docs: updated docs with update checker config by @crezra in https://github.com/oneduo/nova-file-manager/pull/74
-- docs: added upload validation documentation by @crezra in https://github.com/oneduo/nova-file-manager/pull/75
-- fix(flexible): fix flexible support by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/77
+- docs: updated docs with update checker config by @crezra in https://github.com/everzel/nova-file-manager/pull/74
+- docs: added upload validation documentation by @crezra in https://github.com/everzel/nova-file-manager/pull/75
+- fix(flexible): fix flexible support by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/77
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.6.1...v0.6.2
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.6.1...v0.6.2
 
 ## 0.6.1 - 2022-09-09
 
 ### What's Changed
 
-- fix: added missing update checker banner by @crezra in https://github.com/oneduo/nova-file-manager/pull/73
+- fix: added missing update checker banner by @crezra in https://github.com/everzel/nova-file-manager/pull/73
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.6.0...v0.6.1
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.6.0...v0.6.1
 
 ## 0.6.0 - 2022-09-09
 
 ### What's Changed
 
-- Add workflow to automatically update assets via `nova-kit/nova-packages-tool` by @crynobone in https://github.com/oneduo/nova-file-manager/pull/64
-- Bump supported version with Script ordering fixes. by @crynobone in https://github.com/oneduo/nova-file-manager/pull/65
-- test: add guzzle to fix browser test. by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/66
-- Minor fixed and UI improvements by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/67
-- refactor: refactor index field by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/68
-- Support filesystem as string by @milewski in https://github.com/oneduo/nova-file-manager/pull/69
-- feat(upload): add upload rules and upload custom validation by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/71
-- feat(flexible): add flexible content support by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/72
+- Add workflow to automatically update assets via `nova-kit/nova-packages-tool` by @crynobone in https://github.com/everzel/nova-file-manager/pull/64
+- Bump supported version with Script ordering fixes. by @crynobone in https://github.com/everzel/nova-file-manager/pull/65
+- test: add guzzle to fix browser test. by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/66
+- Minor fixed and UI improvements by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/67
+- refactor: refactor index field by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/68
+- Support filesystem as string by @milewski in https://github.com/everzel/nova-file-manager/pull/69
+- feat(upload): add upload rules and upload custom validation by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/71
+- feat(flexible): add flexible content support by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/72
 - feat: add update checker banner message by @crezra
 
 ### New Contributors
 
-- @crynobone made their first contribution in https://github.com/oneduo/nova-file-manager/pull/64
+- @crynobone made their first contribution in https://github.com/everzel/nova-file-manager/pull/64
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.5.0...v0.6.0
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.5.0...v0.6.0
 
 ## 0.5.0 - 2022-09-08
 
@@ -415,116 +415,116 @@ To migrate your existing data, you may defined a command or action to transform 
 
 #### What's Changed
 
-- fix(docs): updated screenshots in docs by @crezra in https://github.com/oneduo/nova-file-manager/pull/59
-- Add crop image feature by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/60
-- [0.5.x] Improved multi disk support, added image cropping by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/63
+- fix(docs): updated screenshots in docs by @crezra in https://github.com/everzel/nova-file-manager/pull/59
+- Add crop image feature by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/60
+- [0.5.x] Improved multi disk support, added image cropping by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/63
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.4.0...v0.5.0
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.4.0...v0.5.0
 
 ## 0.4.0 - 2022-09-05
 
 ### What's Changed
 
-- Add field and tool permissions. by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/49
-- fix(file-card): fixed missing file label spacing and alignment by @crezra in https://github.com/oneduo/nova-file-manager/pull/56
-- fix(file-card): fixed file card submitting the form by @crezra in https://github.com/oneduo/nova-file-manager/pull/57
-- fix(disks): fixed path not resetting when changing disks by @crezra in https://github.com/oneduo/nova-file-manager/pull/58
+- Add field and tool permissions. by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/49
+- fix(file-card): fixed missing file label spacing and alignment by @crezra in https://github.com/everzel/nova-file-manager/pull/56
+- fix(file-card): fixed file card submitting the form by @crezra in https://github.com/everzel/nova-file-manager/pull/57
+- fix(disks): fixed path not resetting when changing disks by @crezra in https://github.com/everzel/nova-file-manager/pull/58
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.3.2...v0.4.0
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.3.2...v0.4.0
 
 ## 0.3.2 - 2022-09-02
 
 ### What's Changed
 
-- sync by @crezra in https://github.com/oneduo/nova-file-manager/pull/47
-- ♿️ fixed focus styles for better accessibility  by @crezra in https://github.com/oneduo/nova-file-manager/pull/48
+- sync by @crezra in https://github.com/everzel/nova-file-manager/pull/47
+- ♿️ fixed focus styles for better accessibility  by @crezra in https://github.com/everzel/nova-file-manager/pull/48
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.3.1...v0.3.2
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.3.1...v0.3.2
 
 ## 0.3.1 - 2022-09-02
 
 ### What's Changed
 
-- Improve selection and accessibility by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/46
+- Improve selection and accessibility by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/46
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.3.0...v0.3.1
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.3.0...v0.3.1
 
 ## 0.3.0 - 2022-09-02
 
 ### What's Changed
 
-- v0.3.0 by @crezra in https://github.com/oneduo/nova-file-manager/pull/45
+- v0.3.0 by @crezra in https://github.com/everzel/nova-file-manager/pull/45
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.2.7...v0.3.0
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.2.7...v0.3.0
 
 ## 0.2.7 - 2022-08-31
 
 ### What's Changed
 
-- 💄 fixed some minor UI issues by @crezra in https://github.com/oneduo/nova-file-manager/pull/43
+- 💄 fixed some minor UI issues by @crezra in https://github.com/everzel/nova-file-manager/pull/43
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.2.6...v0.2.7
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.2.6...v0.2.7
 
 ## 0.2.6 - 2022-08-31
 
 ## What's Changed
 
-- 🔧 added algolia docsearch by @crezra in https://github.com/oneduo/nova-file-manager/pull/35
-- 📈 added tinyanalytics to docs by @crezra in https://github.com/oneduo/nova-file-manager/pull/36
-- 📈 fixed tinyanalytics setup by @crezra in https://github.com/oneduo/nova-file-manager/pull/37
-- 📈 replace tinyanalytics with splitbee by @crezra in https://github.com/oneduo/nova-file-manager/pull/38
+- 🔧 added algolia docsearch by @crezra in https://github.com/everzel/nova-file-manager/pull/35
+- 📈 added tinyanalytics to docs by @crezra in https://github.com/everzel/nova-file-manager/pull/36
+- 📈 fixed tinyanalytics setup by @crezra in https://github.com/everzel/nova-file-manager/pull/37
+- 📈 replace tinyanalytics with splitbee by @crezra in https://github.com/everzel/nova-file-manager/pull/38
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.2.5...v0.2.6
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.2.5...v0.2.6
 
 ## 0.2.5 - 2022-08-14
 
 ## What's Changed
 
-- 📝 updated docs by @crezra in https://github.com/oneduo/nova-file-manager/pull/25
-- 👷 Add test workflow. by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/26
-- 👷 Update test workflow. by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/27
-- 👷 Update test workflow. by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/28
-- Develop by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/29
-- Develop by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/30
-- 👷 Update test workflow. by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/31
-- Update documentation by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/32
-- 🐛 fixed file selection in the form field by @crezra in https://github.com/oneduo/nova-file-manager/pull/34
+- 📝 updated docs by @crezra in https://github.com/everzel/nova-file-manager/pull/25
+- 👷 Add test workflow. by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/26
+- 👷 Update test workflow. by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/27
+- 👷 Update test workflow. by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/28
+- Develop by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/29
+- Develop by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/30
+- 👷 Update test workflow. by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/31
+- Update documentation by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/32
+- 🐛 fixed file selection in the form field by @crezra in https://github.com/everzel/nova-file-manager/pull/34
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.2.4...v0.2.5
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.2.4...v0.2.5
 
 ## 0.2.4 - 2022-08-13
 
 ## What's Changed
 
-- 📝 Update documentation. by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/18
-- Linted JS and added documentation by @crezra in https://github.com/oneduo/nova-file-manager/pull/19
-- 💚 updated github workflow by @crezra in https://github.com/oneduo/nova-file-manager/pull/20
-- updated vitepress config by @crezra in https://github.com/oneduo/nova-file-manager/pull/21
-- 🔧 updated vitepress config with base url by @crezra in https://github.com/oneduo/nova-file-manager/pull/22
-- 🔧 changed simultaneousUploads on chunk uploads by @crezra in https://github.com/oneduo/nova-file-manager/pull/23
-- 🌐 updated localization keys by @crezra in https://github.com/oneduo/nova-file-manager/pull/24
+- 📝 Update documentation. by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/18
+- Linted JS and added documentation by @crezra in https://github.com/everzel/nova-file-manager/pull/19
+- 💚 updated github workflow by @crezra in https://github.com/everzel/nova-file-manager/pull/20
+- updated vitepress config by @crezra in https://github.com/everzel/nova-file-manager/pull/21
+- 🔧 updated vitepress config with base url by @crezra in https://github.com/everzel/nova-file-manager/pull/22
+- 🔧 changed simultaneousUploads on chunk uploads by @crezra in https://github.com/everzel/nova-file-manager/pull/23
+- 🌐 updated localization keys by @crezra in https://github.com/everzel/nova-file-manager/pull/24
 
 ## New Contributors
 
-- @crezra made their first contribution in https://github.com/oneduo/nova-file-manager/pull/19
+- @crezra made their first contribution in https://github.com/everzel/nova-file-manager/pull/19
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.2.3...v0.2.4
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.2.3...v0.2.4
 
 ## 0.2.3 - 2022-08-13
 
 ## What's Changed
 
-- Fix str support and scroll issue by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/17
+- Fix str support and scroll issue by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/17
 - Fixed an issue with str on Laravel 8
 - Fixed an issue where overflow is set to hidden after renaming a file
 - Fixed an issue where the oldPath parameter was wrong
 - Fixed an issue with the `useError` composable
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.2.2...v0.2.3
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.2.2...v0.2.3
 
 ## 0.2.2 - 2022-08-12
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.2.1...v0.2.2
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.2.1...v0.2.2
 
 - Fixed an issue with list view
 - Added lint
@@ -535,25 +535,25 @@ To migrate your existing data, you may defined a command or action to transform 
 
 ## What's Changed
 
-- Fix incompatibility with `nova-flexible-content` by @milewski in https://github.com/oneduo/nova-file-manager/pull/15
+- Fix incompatibility with `nova-flexible-content` by @milewski in https://github.com/everzel/nova-file-manager/pull/15
 
 ## New Contributors
 
-- @milewski made their first contribution in https://github.com/oneduo/nova-file-manager/pull/15
+- @milewski made their first contribution in https://github.com/everzel/nova-file-manager/pull/15
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.2.0...v0.2.1
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.2.0...v0.2.1
 
 ## 0.2.0 - 2022-08-10
 
 ## What's Changed
 
-- Develop by @mikaelpopowicz in https://github.com/oneduo/nova-file-manager/pull/14
+- Develop by @mikaelpopowicz in https://github.com/everzel/nova-file-manager/pull/14
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.1.0...v0.2.0
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.1.0...v0.2.0
 
-Closes https://github.com/oneduo/nova-file-manager/issues/4
+Closes https://github.com/everzel/nova-file-manager/issues/4
 
-Closes partially https://github.com/oneduo/nova-file-manager/issues/5
+Closes partially https://github.com/everzel/nova-file-manager/issues/5
 
 - Fix multiple fields on same resource
 - Fix scroll issue when closing modals
@@ -573,7 +573,7 @@ Closes partially https://github.com/oneduo/nova-file-manager/issues/5
 
 ## 0.0.1 - 2022-08-05
 
-**Full Changelog**: https://github.com/oneduo/nova-file-manager/compare/v0.0.1-alpha...v0.0.1
+**Full Changelog**: https://github.com/everzel/nova-file-manager/compare/v0.0.1-alpha...v0.0.1
 
 ## v0.0.1-alpha - 2022-06-20
 

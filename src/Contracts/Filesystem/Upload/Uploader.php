@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Contracts\Filesystem\Upload;
+namespace Everzel\NovaFileManager\Contracts\Filesystem\Upload;
 
-use Oneduo\NovaFileManager\Http\Requests\UploadFileRequest;
+use Everzel\NovaFileManager\Http\Requests\UploadFileRequest;
 
 interface Uploader
 {

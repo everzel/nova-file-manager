@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Services;
+namespace Everzel\NovaFileManager\Services;
 
 use Closure;
 use Illuminate\Container\Container;
@@ -13,10 +13,10 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use League\Flysystem\UnableToRetrieveMetadata;
-use Oneduo\NovaFileManager\Contracts\Services\FileManagerContract;
-use Oneduo\NovaFileManager\Contracts\Support\ResolvesUrl as ResolvesUrlContract;
-use Oneduo\NovaFileManager\Entities\Entity;
-use Oneduo\NovaFileManager\Traits\Support\ResolvesUrl;
+use Everzel\NovaFileManager\Contracts\Services\FileManagerContract;
+use Everzel\NovaFileManager\Contracts\Support\ResolvesUrl as ResolvesUrlContract;
+use Everzel\NovaFileManager\Entities\Entity;
+use Everzel\NovaFileManager\Traits\Support\ResolvesUrl;
 
 class FileManagerService implements FileManagerContract, ResolvesUrlContract
 {
@@ -365,7 +365,7 @@ class FileManagerService implements FileManagerContract, ResolvesUrlContract
      *
      * @param  string  $path
      * @param  string  $disk
-     * @return \Oneduo\NovaFileManager\Entities\Entity
+     * @return \Everzel\NovaFileManager\Entities\Entity
      */
     public function makeEntity(string $path, string $disk): Entity
     {

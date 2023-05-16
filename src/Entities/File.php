@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Entities;
+namespace Everzel\NovaFileManager\Entities;
 
 class File extends Entity
 {

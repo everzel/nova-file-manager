@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Tests\Fixture;
+namespace Everzel\NovaFileManager\Tests\Fixture;
 
 use Illuminate\Foundation\Auth\User;
 use Illuminate\Support\Facades\Storage;
 use Laravel\Nova\Http\Requests\NovaRequest;
 use Laravel\Nova\Resource;
-use Oneduo\NovaFileManager\FileManager;
+use Everzel\NovaFileManager\FileManager;
 
 class TestResourceWithOnDemandFilesystem extends Resource
 {

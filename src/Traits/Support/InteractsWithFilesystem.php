@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Traits\Support;
+namespace Everzel\NovaFileManager\Traits\Support;
 
 use Closure;
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Contracts\Validation\Rule;
 use Laravel\Nova\Http\Requests\NovaRequest;
-use Oneduo\NovaFileManager\Contracts\Support\InteractsWithFilesystem as InteractsWithFilesystemContract;
+use Everzel\NovaFileManager\Contracts\Support\InteractsWithFilesystem as InteractsWithFilesystemContract;
 
 trait InteractsWithFilesystem
 {

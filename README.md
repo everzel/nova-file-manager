@@ -1,8 +1,8 @@
 <img src="./docs/images/banner.png"/>
 
-<a href="https://oneduo.github.io/nova-file-manager/" taget="_blank"><img src="./docs/images/documentation.png"/></a>
+<a href="https://everzel.github.io/nova-file-manager/" taget="_blank"><img src="./docs/images/documentation.png"/></a>
 
-<a href="https://novapackages.com/packages/oneduo/nova-file-manager" target="_blank"><img src="./docs/images/support.png"/></a>
+<a href="https://novapackages.com/packages/everzel/nova-file-manager" target="_blank"><img src="./docs/images/support.png"/></a>
 
 # Nova File Manager
 
@@ -12,11 +12,11 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 ![PHP](https://img.shields.io/badge/PHP-8-blue.svg)
 ![Laravel Nova](https://img.shields.io/badge/laravel%2Fnova-4-cyan.svg)
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/oneduo/nova-file-manager.svg)](https://packagist.org/packages/oneduo/nova-file-manager)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/everzel/nova-file-manager.svg)](https://packagist.org/packages/everzel/nova-file-manager)
 [![Total Downloads](https://img.shields.io/packagist/dt/bbs-lab/nova-file-manager.svg)](https://packagist.org/packages/bbs-lab/nova-file-manager)
-[![Downloads](https://img.shields.io/packagist/dt/oneduo/nova-file-manager.svg)](https://packagist.org/packages/oneduo/nova-file-manager)
-[![Run tests](https://github.com/oneduo/nova-file-manager/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/oneduo/nova-file-manager/actions/workflows/tests.yml)
-[![codecov](https://codecov.io/github/oneduo/nova-file-manager/branch/main/graph/badge.svg?token=L6LXFBA9JX)](https://codecov.io/github/oneduo/nova-file-manager)
+[![Downloads](https://img.shields.io/packagist/dt/everzel/nova-file-manager.svg)](https://packagist.org/packages/everzel/nova-file-manager)
+[![Run tests](https://github.com/everzel/nova-file-manager/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/everzel/nova-file-manager/actions/workflows/tests.yml)
+[![codecov](https://codecov.io/github/everzel/nova-file-manager/branch/main/graph/badge.svg?token=L6LXFBA9JX)](https://codecov.io/github/everzel/nova-file-manager)
 </div>
 
 ---
@@ -77,7 +77,7 @@ This package requires the following :
 To get started, you will need to install the following dependencies :
 
 ```
-composer require oneduo/nova-file-manager
+composer require everzel/nova-file-manager
 ```
 
 That's it, you're ready to go!
@@ -100,7 +100,7 @@ To get yourself started, you need to add the following tool to your `NovaService
 ```php
 // NovaServiceProvider.php
 
-use Oneduo\NovaFileManager\NovaFileManager;
+use Everzel\NovaFileManager\NovaFileManager;
 
 class NovaServiceProvider extends NovaApplicationServiceProvider
 {
@@ -126,7 +126,7 @@ Go ahead and add a `FileManager` field to your Nova resource.
 ```php
 // app/Nova/User.php
 
-use Oneduo\NovaFileManager\FileManager;
+use Everzel\NovaFileManager\FileManager;
 
 class User extends Resource
 {
@@ -161,19 +161,19 @@ You have now successfully added a File Manager field to your resource.
 | `url_signing.value`                  | Defines the value for the expiration time                                                | `int`      | `10`      |                                                                   |
 
 For a full list of updated configuration options, please refer to the full documentation
-at https://oneduo.github.io/nova-file-manager/configuration.html
+at https://everzel.github.io/nova-file-manager/configuration.html
 
 ## Authors <a name = "authors"></a>
 
 - [Charaf Rezrazi](https://github.com/rezrazi)
 - [Mikaël Popowicz](https://github.com/mikaelpopowicz)
 
-See also the list of [contributors](https://github.com/oneduo/nova-file-manager/contributors) who
+See also the list of [contributors](https://github.com/everzel/nova-file-manager/contributors) who
 participated in this project.
 
 ## Screenshots <a name= "screenshots"></a>
 
-You can find more screenshots here https://oneduo.github.io/nova-file-manager/screenshots.html.
+You can find more screenshots here https://everzel.github.io/nova-file-manager/screenshots.html.
 
 ## Changelog
 

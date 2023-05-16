@@ -4,7 +4,7 @@
 To get started, you will need to install the following dependencies :
 
 ```bash
-composer require oneduo/nova-file-manager
+composer require everzel/nova-file-manager
 ```
 
 🎉 That's it, you're ready to go!
@@ -21,14 +21,14 @@ You can find details about the configuration options in the [configuration file 
 :::
 
 ## Casting your model attributes
-To use the package, you will need to cast your model attributes to the `Oneduo\NovaFileManager\Casts\Asset` for a single value or `Oneduo\NovaFileManager\Casts\AssetCollection` for multiple values.
+To use the package, you will need to cast your model attributes to the `Everzel\NovaFileManager\Casts\Asset` for a single value or `Everzel\NovaFileManager\Casts\AssetCollection` for multiple values.
 
 ```php
 <?php
 
 namespace App\Models;
 
-use Oneduo\NovaFileManager\Casts\AssetCollection;
+use Everzel\NovaFileManager\Casts\AssetCollection;
 
 class User extends Authenticatable
 {

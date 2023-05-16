@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Tests;
+namespace Everzel\NovaFileManager\Tests;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Auth\User;
@@ -16,8 +16,8 @@ use Laravel\Nova\NovaApplicationServiceProvider;
 use Laravel\Nova\NovaCoreServiceProvider;
 use Laravel\Nova\NovaServiceProvider;
 use NovaKit\NovaPackagesTool\LaravelServiceProvider;
-use Oneduo\NovaFileManager\NovaFileManager;
-use Oneduo\NovaFileManager\ToolServiceProvider;
+use Everzel\NovaFileManager\NovaFileManager;
+use Everzel\NovaFileManager\ToolServiceProvider;
 use Orchestra\Testbench\Dusk\TestCase as BaseDuskTestCase;
 use Pion\Laravel\ChunkUpload\Providers\ChunkUploadServiceProvider;
 use Spatie\LaravelRay\RayServiceProvider;

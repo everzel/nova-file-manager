@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Filesystem\Upload;
+namespace Everzel\NovaFileManager\Filesystem\Upload;
 
 use Illuminate\Http\UploadedFile;
 use Illuminate\Validation\ValidationException;
-use Oneduo\NovaFileManager\Contracts\Filesystem\Upload\Uploader as UploaderContract;
-use Oneduo\NovaFileManager\Events\FileUploaded;
-use Oneduo\NovaFileManager\Events\FileUploading;
-use Oneduo\NovaFileManager\Http\Requests\UploadFileRequest;
+use Everzel\NovaFileManager\Contracts\Filesystem\Upload\Uploader as UploaderContract;
+use Everzel\NovaFileManager\Events\FileUploaded;
+use Everzel\NovaFileManager\Events\FileUploading;
+use Everzel\NovaFileManager\Http\Requests\UploadFileRequest;
 use Pion\Laravel\ChunkUpload\Exceptions\UploadMissingFileException;
 use Pion\Laravel\ChunkUpload\Handler\HandlerFactory;
 use Pion\Laravel\ChunkUpload\Receiver\FileReceiver;

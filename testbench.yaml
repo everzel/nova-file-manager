@@ -1,5 +1,5 @@
 providers:
-  - Oneduo\NovaFileManager\ToolServiceProvider
+  - Everzel\NovaFileManager\ToolServiceProvider
   - Inertia\ServiceProvider
   - Laravel\Nova\NovaServiceProvider
   - Laravel\Nova\NovaApplicationServiceProvider

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Filesystem\Metadata;
+namespace Everzel\NovaFileManager\Filesystem\Metadata;
 
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Support\Facades\Cache;
-use Oneduo\NovaFileManager\Contracts\Filesystem\Metadata\Analyzer as AnalyzerContract;
+use Everzel\NovaFileManager\Contracts\Filesystem\Metadata\Analyzer as AnalyzerContract;
 
 abstract class Analyzer implements AnalyzerContract
 {

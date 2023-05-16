@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Http\Requests;
+namespace Everzel\NovaFileManager\Http\Requests;
 
-use Oneduo\NovaFileManager\Rules\DiskExistsRule;
-use Oneduo\NovaFileManager\Rules\MissingInFilesystem;
+use Everzel\NovaFileManager\Rules\DiskExistsRule;
+use Everzel\NovaFileManager\Rules\MissingInFilesystem;
 
 /**
  * @property-read string|null $disk

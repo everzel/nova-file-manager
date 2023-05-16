@@ -8,8 +8,8 @@ use Illuminate\Support\Facades\Storage;
 use Illuminate\Validation\ValidationException;
 use Laravel\Nova\Http\Requests\NovaRequest;
 use Laravel\Nova\Nova;
-use Oneduo\NovaFileManager\Http\Requests\UploadFileRequest;
-use Oneduo\NovaFileManager\NovaFileManager;
+use Everzel\NovaFileManager\Http\Requests\UploadFileRequest;
+use Everzel\NovaFileManager\NovaFileManager;
 use function Pest\Laravel\actingAs;
 
 beforeEach(function () {

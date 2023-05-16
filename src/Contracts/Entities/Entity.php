@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Contracts\Entities;
+namespace Everzel\NovaFileManager\Contracts\Entities;
 
 use Illuminate\Support\Carbon;
-use Oneduo\NovaFileManager\Contracts\Services\FileManagerContract;
+use Everzel\NovaFileManager\Contracts\Services\FileManagerContract;
 
 interface Entity
 {

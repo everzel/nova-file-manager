@@ -1,5 +1,5 @@
 {
-  "name": "oneduo/nova-file-manager",
+  "name": "everzel/nova-file-manager",
   "description": "A handy file manager tool for Laravel Nova",
   "keywords": [
     "laravel",
@@ -17,7 +17,7 @@
       "url": "https://nova.laravel.com"
     }
   ],
-  "homepage": "https://github.com/oneduo/nova-file-manager",
+  "homepage": "https://github.com/everzel/nova-file-manager",
   "license": "MIT",
   "authors": [
     {
@@ -51,7 +51,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Oneduo\\NovaFileManager\\": "src/"
+      "Everzel\\NovaFileManager\\": "src/"
     },
     "files": [
       "src/helpers.php"
@@ -59,13 +59,13 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Oneduo\\NovaFileManager\\Tests\\": "tests/"
+      "Everzel\\NovaFileManager\\Tests\\": "tests/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Oneduo\\NovaFileManager\\ToolServiceProvider"
+        "Everzel\\NovaFileManager\\ToolServiceProvider"
       ]
     }
   },

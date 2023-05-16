@@ -7,16 +7,16 @@ use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Laravel\Nova\Nova;
-use Oneduo\NovaFileManager\Contracts\Services\FileManagerContract;
-use Oneduo\NovaFileManager\Events\FileDeleted;
-use Oneduo\NovaFileManager\Events\FileDeleting;
-use Oneduo\NovaFileManager\Events\FileRenamed;
-use Oneduo\NovaFileManager\Events\FileRenaming;
-use Oneduo\NovaFileManager\Events\FileUnzipped;
-use Oneduo\NovaFileManager\Events\FileUnzipping;
-use Oneduo\NovaFileManager\Events\FileUploaded;
-use Oneduo\NovaFileManager\Events\FileUploading;
-use Oneduo\NovaFileManager\NovaFileManager;
+use Everzel\NovaFileManager\Contracts\Services\FileManagerContract;
+use Everzel\NovaFileManager\Events\FileDeleted;
+use Everzel\NovaFileManager\Events\FileDeleting;
+use Everzel\NovaFileManager\Events\FileRenamed;
+use Everzel\NovaFileManager\Events\FileRenaming;
+use Everzel\NovaFileManager\Events\FileUnzipped;
+use Everzel\NovaFileManager\Events\FileUnzipping;
+use Everzel\NovaFileManager\Events\FileUploaded;
+use Everzel\NovaFileManager\Events\FileUploading;
+use Everzel\NovaFileManager\NovaFileManager;
 use function Pest\Laravel\postJson;
 
 beforeEach(function () {
@@ -422,7 +422,7 @@ it('can unzip an archive', function () {
 
     Storage::disk($this->disk)->put(
         path: $path = 'archive.zip',
-        contents: file_get_contents(base_path('../../../../tests/Fixture/storage/oneduo.zip'))
+        contents: file_get_contents(base_path('../../../../tests/Fixture/storage/everzel.zip'))
     );
 
     Storage::disk($this->disk)->assertExists($path);
@@ -439,7 +439,7 @@ it('can unzip an archive', function () {
             'message' => __('nova-file-manager::messages.file.unzip'),
         ]);
 
-    Storage::disk($this->disk)->assertExists('archive/oneduo/confidential/secret.txt');
+    Storage::disk($this->disk)->assertExists('archive/everzel/confidential/secret.txt');
 
     Event::assertDispatched(
         event: FileUnzipping::class,
@@ -473,7 +473,7 @@ it('throws an exception if the filesystem cannot unzip the archive', function ()
 
     Storage::disk($this->disk)->put(
         path: $path = 'archive.zip',
-        contents: file_get_contents(base_path('../../../../tests/Fixture/storage/oneduo.zip'))
+        contents: file_get_contents(base_path('../../../../tests/Fixture/storage/everzel.zip'))
     );
 
     Storage::disk($this->disk)->assertExists($path);
@@ -491,7 +491,7 @@ it('throws an exception if the filesystem cannot unzip the archive', function ()
             ],
         ]);
 
-    Storage::disk($this->disk)->assertMissing('archive/oneduo/confidential/secret.txt');
+    Storage::disk($this->disk)->assertMissing('archive/everzel/confidential/secret.txt');
 
     Event::assertDispatched(
         event: FileUnzipping::class,

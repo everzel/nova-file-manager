@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Tests;
+namespace Everzel\NovaFileManager\Tests;
 
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Route;
@@ -10,7 +10,7 @@ use Inertia\ServiceProvider;
 use Laravel\Nova\NovaApplicationServiceProvider;
 use Laravel\Nova\NovaCoreServiceProvider;
 use Laravel\Nova\NovaServiceProvider;
-use Oneduo\NovaFileManager\ToolServiceProvider;
+use Everzel\NovaFileManager\ToolServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 use Pion\Laravel\ChunkUpload\Providers\ChunkUploadServiceProvider;
 

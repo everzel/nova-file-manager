@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Events;
+namespace Everzel\NovaFileManager\Events;
 
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Foundation\Events\Dispatchable;

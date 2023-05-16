@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Storage;
-use Oneduo\NovaFileManager\Contracts\Services\FileManagerContract;
-use Oneduo\NovaFileManager\Events\FolderCreated;
-use Oneduo\NovaFileManager\Events\FolderCreating;
-use Oneduo\NovaFileManager\Events\FolderDeleted;
-use Oneduo\NovaFileManager\Events\FolderDeleting;
-use Oneduo\NovaFileManager\Events\FolderRenamed;
-use Oneduo\NovaFileManager\Events\FolderRenaming;
+use Everzel\NovaFileManager\Contracts\Services\FileManagerContract;
+use Everzel\NovaFileManager\Events\FolderCreated;
+use Everzel\NovaFileManager\Events\FolderCreating;
+use Everzel\NovaFileManager\Events\FolderDeleted;
+use Everzel\NovaFileManager\Events\FolderDeleting;
+use Everzel\NovaFileManager\Events\FolderRenamed;
+use Everzel\NovaFileManager\Events\FolderRenaming;
 use function Pest\Laravel\postJson;
 
 beforeEach(function () {

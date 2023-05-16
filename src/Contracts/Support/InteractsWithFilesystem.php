@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Contracts\Support;
+namespace Everzel\NovaFileManager\Contracts\Support;
 
 use Closure;
 use Illuminate\Contracts\Filesystem\Filesystem;

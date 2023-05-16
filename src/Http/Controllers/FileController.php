@@ -2,30 +2,30 @@
 
 declare(strict_types=1);
 
-namespace Oneduo\NovaFileManager\Http\Controllers;
+namespace Everzel\NovaFileManager\Http\Controllers;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;
 use Illuminate\Validation\ValidationException;
-use Oneduo\NovaFileManager\Contracts\Filesystem\Upload\Uploader;
-use Oneduo\NovaFileManager\Events\FileDeleted;
-use Oneduo\NovaFileManager\Events\FileDeleting;
-use Oneduo\NovaFileManager\Events\FileRenamed;
-use Oneduo\NovaFileManager\Events\FileRenaming;
-use Oneduo\NovaFileManager\Events\FileUnzipped;
-use Oneduo\NovaFileManager\Events\FileUnzipping;
-use Oneduo\NovaFileManager\Http\Requests\DeleteFileRequest;
-use Oneduo\NovaFileManager\Http\Requests\RenameFileRequest;
-use Oneduo\NovaFileManager\Http\Requests\UnzipFileRequest;
-use Oneduo\NovaFileManager\Http\Requests\UploadFileRequest;
+use Everzel\NovaFileManager\Contracts\Filesystem\Upload\Uploader;
+use Everzel\NovaFileManager\Events\FileDeleted;
+use Everzel\NovaFileManager\Events\FileDeleting;
+use Everzel\NovaFileManager\Events\FileRenamed;
+use Everzel\NovaFileManager\Events\FileRenaming;
+use Everzel\NovaFileManager\Events\FileUnzipped;
+use Everzel\NovaFileManager\Events\FileUnzipping;
+use Everzel\NovaFileManager\Http\Requests\DeleteFileRequest;
+use Everzel\NovaFileManager\Http\Requests\RenameFileRequest;
+use Everzel\NovaFileManager\Http\Requests\UnzipFileRequest;
+use Everzel\NovaFileManager\Http\Requests\UploadFileRequest;
 
 class FileController extends Controller
 {
     /**
      * Upload a file from the tool
      *
-     * @param \Oneduo\NovaFileManager\Http\Requests\UploadFileRequest $request
-     * @param \Oneduo\NovaFileManager\Contracts\Filesystem\Upload\Uploader $uploader
+     * @param \Everzel\NovaFileManager\Http\Requests\UploadFileRequest $request
+     * @param \Everzel\NovaFileManager\Contracts\Filesystem\Upload\Uploader $uploader
      * @return \Illuminate\Http\JsonResponse
      */
     public function upload(UploadFileRequest $request, Uploader $uploader): JsonResponse
@@ -38,7 +38,7 @@ class FileController extends Controller
     /**
      * Rename a file
      *
-     * @param \Oneduo\NovaFileManager\Http\Requests\RenameFileRequest $request
+     * @param \Everzel\NovaFileManager\Http\Requests\RenameFileRequest $request
      * @return \Illuminate\Http\JsonResponse
      */
     public function rename(RenameFileRequest $request): JsonResponse
@@ -65,7 +65,7 @@ class FileController extends Controller
     /**
      * Delete a file
      *
-     * @param \Oneduo\NovaFileManager\Http\Requests\DeleteFileRequest $request
+     * @param \Everzel\NovaFileManager\Http\Requests\DeleteFileRequest $request
      * @return \Illuminate\Http\JsonResponse
      */
     public function delete(DeleteFileRequest $request): JsonResponse
@@ -94,7 +94,7 @@ class FileController extends Controller
     /**
      * Unzip an archive
      *
-     * @param \Oneduo\NovaFileManager\Http\Requests\UnzipFileRequest $request
+     * @param \Everzel\NovaFileManager\Http\Requests\UnzipFileRequest $request
      * @return \Illuminate\Http\JsonResponse
      */
     public function unzip(UnzipFileRequest $request): JsonResponse

@@ -7,8 +7,8 @@ use Illuminate\Support\Facades\Storage;
 use Illuminate\Validation\ValidationException;
 use Laravel\Nova\Http\Requests\NovaRequest;
 use Laravel\Nova\Nova;
-use Oneduo\NovaFileManager\Http\Requests\DeleteFolderRequest;
-use Oneduo\NovaFileManager\NovaFileManager;
+use Everzel\NovaFileManager\Http\Requests\DeleteFolderRequest;
+use Everzel\NovaFileManager\NovaFileManager;
 
 beforeEach(function () {
     $this->disk = 'public';

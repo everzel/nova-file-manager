@@ -3,11 +3,11 @@
 declare(strict_types=1);
 
 use Laravel\Nova\Nova;
-use Oneduo\NovaFileManager\NovaFileManager;
-use Oneduo\NovaFileManager\Tests\DuskTestCase;
-use Oneduo\NovaFileManager\Tests\TestCase;
-use Oneduo\NovaFileManager\Tests\Traits\FileConcerns;
-use Oneduo\NovaFileManager\Tests\Traits\FolderConcerns;
+use Everzel\NovaFileManager\NovaFileManager;
+use Everzel\NovaFileManager\Tests\DuskTestCase;
+use Everzel\NovaFileManager\Tests\TestCase;
+use Everzel\NovaFileManager\Tests\Traits\FileConcerns;
+use Everzel\NovaFileManager\Tests\Traits\FolderConcerns;
 
 uses(TestCase::class)->in('Feature');
 uses(FolderConcerns::class)->in('Feature/Directory');
